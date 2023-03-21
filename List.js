@@ -25,9 +25,16 @@ console.log(arr.length);
 
 arr.push('a',1);
 console.log(arr[2]);
+arr.pop();
+arr.pop();
+arr.pop();
+arr.pop();
 
 // this is updated array .
 
 for(var i=0; i<arr.length; i++){
     console.log(arr[i]);
 }
+
+let type = typeof arr;
+console.log(type);
